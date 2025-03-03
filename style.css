@@ -1,0 +1,93 @@
+button { 
+  width: 100px;
+  height: 100px;
+  color: black;
+  background-color: rgb(234, 233, 154);
+  border: none;
+  border-radius: 80px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.buttons{
+  display: grid;
+  align-content: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  position: absolute;
+  margin-left: 34%;
+  background-color: rgb(243, 246, 254);
+  border-radius: 10px;
+}
+.one, .two, .three, .four, .five {
+ margin-top: 10px;
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-bottom: 10px;
+
+}
+.calculator{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(240, 238, 232);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.op{
+  background-color: rgb(254, 170, 198)
+}
+.AC{
+  background-color: rgb(141, 227, 141);
+}
+.op:active{
+  background-color: rgb(238, 234, 234);
+}
+.AC:active{
+  background-color: white;
+  transition: background-color 0.5s;
+}
+.op:hover{
+  background-color: rgb(294, 190, 700);
+  transition: background-color 0.5s;
+}
+.AC:hover{
+  background-color: rgb(180, 250, 200);
+  transition: background-color 0.5s;
+}
+button:active{
+  background-color: rgb(209, 185, 185);
+}
+button:hover{
+  background-color: rgb(234, 233, 180);
+}
+#display{
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 0px 5px 0px  rgba(0, 0, 0, 1);
+  font-size: 30px;
+  text-align: right;
+  margin: 10px;
+  margin-left: 34.4%;
+  width: 430px;
+  align-items: center;
+  height: 80px;
+  border: none;
+  background-color: rgb(243, 256, 254);
+  font-size: 40px;
+  vertical-align: middle;
+  padding-left: 0px;
+  outline: none;
+  color: rgb(90, 80, 80);
+}
+.calculator{
+  justify-content: center;
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
